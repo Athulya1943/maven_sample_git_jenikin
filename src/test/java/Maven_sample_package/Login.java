@@ -12,8 +12,8 @@ public class Login {
   @Test
   public void f() {
 	  driver.get("https://demo.guru99.com/test/newtours/");
-		 driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("maya");
-		 driver.findElement(By.xpath("//input[@name='password']")).sendKeys("maya");
+		 driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("anu");
+		 driver.findElement(By.xpath("//input[@name='password']")).sendKeys("anu");
 		 driver.findElement(By.xpath("//input[@name='submit']")).click();
   }
   @BeforeTest
